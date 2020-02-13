@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: exampleTopic    
+    gcp:
+      project-id: dz-playground-4711
+      credentials:
+        location: file:C:\development\spring\ide\ws_gcp\gcp_key.json
